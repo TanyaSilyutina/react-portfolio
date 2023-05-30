@@ -11,7 +11,7 @@ function App() {
     return (
         <BrowserRouter>
             <NavTabs/>
-            <div className={'container-fluid'}>
+            <div className={'container'}>
                 <Routes>
                     <Route path="/about" element={<AboutMe/>}/>
                     <Route path="/portfolio" element={<Portfolio/>}/>
