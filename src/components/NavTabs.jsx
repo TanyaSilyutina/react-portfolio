@@ -1,22 +1,38 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import {Link} from "react-router-dom"
 
 function NavTabs() {
     return (
-        <ul className="nav nav-tabs">
-            <li className="nav-item px-4">
-                <Link to="/about">About</Link>
-            </li>
-            <li className="nav-item px-4">
-                <Link to="/portfolio">Portfolio</Link>
-            </li>
-            <li className="nav-item px-4">
-                <Link to="/contact">Contact</Link>
-            </li>
-            <li className="nav-item px-4">
-                <Link to="/resume">Resume</Link>
-            </li>
-        </ul>
+        <nav className="navbar navbar-expand-sm bg-light">
+            <div className="container-fluid">
+                <div className={"navbar-brand fs-3 mx-3"}>Tanya Silyutina
+                    <div className={"fs-6"}>Full-Stack Web Developer</div>
+                </div>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id={'navbarCollapse'}>
+                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+
+                            <Link to="/about" className={"nav-link active"}>About</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/portfolio" className={"nav-link active"}>Portfolio</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/contact" className={"nav-link active"}>Contact</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/resume" className={"nav-link active"}>Resume</Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
     );
 }
 

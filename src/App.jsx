@@ -8,16 +8,20 @@ import NotFound from './components/pages/NotFound.jsx'
 import NavTabs from "./components/NavTabs";
 
 function App() {
-    <BrowserRouter>
-        <NavTabs/>
-        <Routes>
-            <Route path="/about" element={<AboutMe/>}/>
-            <Route path="/portfolio" element={<Portfolio/>}/>
-            <Route path="/contact" element={<Contact/>}/>
-            <Route path="/resume" element={<Resume/>}/>
-            <Route path="/*" element={<NotFound/>}/>
-        </Routes>
-    </BrowserRouter>
+    return (
+        <BrowserRouter>
+            <NavTabs/>
+            <div className={'container-fluid'}>
+                <Routes>
+                    <Route path="/about" element={<AboutMe/>}/>
+                    <Route path="/portfolio" element={<Portfolio/>}/>
+                    <Route path="/contact" element={<Contact/>}/>
+                    <Route path="/resume" element={<Resume/>}/>
+                    <Route path="/*" element={<NotFound/>}/>
+                </Routes>
+            </div>
+        </BrowserRouter>
+    )
 }
 
 export default App;

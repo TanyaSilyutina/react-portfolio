@@ -1,0 +1,15 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.svgIconDiv {
+    text-align: center;
+}
+
+.svgIcon {
+    transition: all 0.3s;
+}
+.svgIcon:hover {
+    transform: scale(1.15);
+}
