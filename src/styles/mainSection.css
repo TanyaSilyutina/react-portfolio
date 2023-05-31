@@ -1,0 +1,10 @@
+* {
+    color: #4b4849 !important;
+    font-family: 'PT Serif', serif;
+}
+
+.mainSection {
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-color: lightgrey;
+}

@@ -5,10 +5,12 @@ import "../styles/NavTabs.css"
 
 function NavTabs() {
     return (
-        <nav className="navbar navbar-expand-sm bg-light">
+        <nav className="navbar navbar-expand-sm navSection">
             <div className="container-fluid">
-                <div className={"navbar-brand fs-3 mx-3"}>Tanya Silyutina
-                    <div className={"fs-6"}>Full-Stack Web Developer</div>
+                <div className={"mx-3"}>
+                    <div className={"navbar-brand fs-3 myName"}><Link to={"/about"} className={"myName"}>Tanya
+                        Silyutina</Link></div>
+                    <div className={"navbar-brand fs-6"}>Full-Stack Web Developer</div>
                 </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarCollapse" aria-controls="navbarSupportedContent"

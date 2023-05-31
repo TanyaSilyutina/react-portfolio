@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import "./styles/mainSection.css"
 import AboutMe from './components/pages/AboutMe.jsx';
 import Portfolio from './components/pages/Portfolio.jsx';
 import Contact from './components/pages/Contact.jsx'
@@ -11,7 +12,7 @@ function App() {
     return (
         <BrowserRouter>
             <NavTabs/>
-            <div className={'container'}>
+            <div className={'container-fluid mainSection'}>
                 <Routes>
                     <Route path="/about" element={<AboutMe/>}/>
                     <Route path="/portfolio" element={<Portfolio/>}/>
