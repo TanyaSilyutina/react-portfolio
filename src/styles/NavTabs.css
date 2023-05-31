@@ -1,5 +1,5 @@
 .nav-link:hover {
-    opacity: 0.5 !important;
+    opacity: 0.5;
 }
 
 .navSection {
@@ -15,4 +15,8 @@
     color: #FFAAAF !important;
     transform: scale(1.05);
     fill: #FFAAAF;
+}
+
+.navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+    opacity: 0.5;
 }

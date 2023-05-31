@@ -81,8 +81,8 @@ export default function Contact() {
                             )}
                         </form>
                     </div>
+                    < Footer/>
                 </div>
-                < Footer/>
             </div>
         </div>
     )

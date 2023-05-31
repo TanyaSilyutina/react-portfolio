@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import "bootstrap/dist/css/bootstrap.css";
 import "./styles/mainSection.css"
 import AboutMe from './components/pages/AboutMe.jsx';
 import Portfolio from './components/pages/Portfolio.jsx';

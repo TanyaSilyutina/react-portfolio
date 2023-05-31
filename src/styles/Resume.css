@@ -1,0 +1,8 @@
+.resume a{
+    text-decoration: none;
+}
+
+
+.resume h2:hover {
+    opacity: 0.5;
+}

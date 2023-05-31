@@ -1,6 +1,11 @@
 #errorMsg {
     color: red !important;
 }
+
+#contactBtn {
+    border-color: #FFAAAF;
+}
+
 #contactBtn:hover {
     background-color: #FFAAAF !important;
 }

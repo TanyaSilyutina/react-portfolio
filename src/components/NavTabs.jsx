@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import {Link, NavLink} from "react-router-dom"
 import "../styles/NavTabs.css"
 
 
@@ -20,16 +20,16 @@ function NavTabs() {
                 <div className="collapse navbar-collapse" id={'navbarCollapse'}>
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link to="/about" className={"nav-link active"}>About</Link>
+                            <NavLink to="/about" className={"nav-link"}>About</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link to="/portfolio" className={"nav-link active"}>Portfolio</Link>
+                            <NavLink to="/portfolio" className={"nav-link"}>Portfolio</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link to="/contact" className={"nav-link active"}>Contact</Link>
+                            <NavLink to="/contact" className={"nav-link"}>Contact</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link to="/resume" className={"nav-link active"}>Resume</Link>
+                            <NavLink to="/resume" className={"nav-link"}>Resume</NavLink>
                         </li>
                     </ul>
                 </div>
