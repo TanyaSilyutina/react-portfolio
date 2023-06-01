@@ -15,7 +15,7 @@ The Website opens at the section 'About Me'.
 ![Front Page - About Me](./src/assets/about.png)
 
 * You can navigate to my GitHub, LinkedIn, or Instagram (the icons at the bottom)
-* Portfolio section demonstrates my most recent projects
+* Portfolio section demonstrates my most recent projects - links to deployed apps and their repos appear on image hover
 * Contact section lets users email me directly (back-end not set up, but all form validations work)
 * Resume section contains my PDF resume and a list of my proficiencies
 
