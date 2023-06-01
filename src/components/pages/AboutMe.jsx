@@ -1,5 +1,6 @@
 import Footer from "../Footer.jsx"
 import "../../styles/AboutMe.css"
+import myPhoto from "../../assets/portfolio-small.png";
 
 export default function AboutMe() {
 
@@ -11,7 +12,7 @@ export default function AboutMe() {
                         About Me
                     </div>
                     <div className={'gy-4'}>
-                        <img className={"img-fluid rounded-circle myImg"} src={"src/assets/portfolio-small.png"} alt={"photo of the developer"}/>
+                        <img className={"img-fluid rounded-circle myImg"} src={myPhoto} alt={"photo of the developer"}/>
                     </div>
                 </div>
                 <div className={'col-12 gy-4 bg-light rounded bg-opacity-50'}>

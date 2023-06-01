@@ -1,6 +1,7 @@
 import { Component } from "react";
 import Pdf from '../../assets/Tanya_Silyutina_Resume.pdf'
 import "../../styles/Resume.css"
+import Footer from "../Footer.jsx"
 
 export default function Resume() {
     class Download extends Component {
@@ -39,6 +40,9 @@ export default function Resume() {
                 <li>MongoDB, Mongoose</li>
                 <li>REST</li>
             </ul>
+        </div>
+        <div className={"row"}>
+            < Footer />
         </div>
     </div>
 }

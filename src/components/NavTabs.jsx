@@ -8,7 +8,7 @@ function NavTabs() {
         <nav className="navbar navbar-expand-sm navSection">
             <div className="container-fluid">
                 <div className={"mx-3"}>
-                    <div className={"navbar-brand fs-3 myName"}><Link to={"/about"} className={"myName"}>Tanya
+                    <div className={"navbar-brand fs-3 myName"}><Link to={"/"} className={"myName"}>Tanya
                         Silyutina</Link></div>
                     <div className={"navbar-brand fs-6"}>Full-Stack Web Developer</div>
                 </div>
@@ -20,7 +20,7 @@ function NavTabs() {
                 <div className="collapse navbar-collapse" id={'navbarCollapse'}>
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <NavLink to="/about" className={"nav-link"}>About</NavLink>
+                            <NavLink to="/" className={"nav-link"}>About</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink to="/portfolio" className={"nav-link"}>Portfolio</NavLink>

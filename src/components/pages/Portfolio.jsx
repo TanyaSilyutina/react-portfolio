@@ -1,5 +1,10 @@
 import Footer from "../Footer.jsx"
 import "../../styles/Portfolio.css"
+import Nomads from "../../assets/drty_nomad.png";
+import Calendar from "../../assets/calendar-project-one.png";
+import Schedule from "../../assets/schedualer.png";
+import PswGen from "../../assets/psw-generator.png";
+
 
 export default function Portfolio() {
     const breakpoints = "col-sm-12 col-md-6 col-lg-4 mb-4"
@@ -18,7 +23,7 @@ export default function Portfolio() {
                 <div className={"row"}>
                     <div className={`${breakpoints}`}>
                         <div className={"image"}>
-                            <img className={"img-fluid myImgs rounded"} src={"src/assets/drty_nomad.png"}
+                            <img className={"img-fluid myImgs rounded"} src={Nomads}
                                  alt={"dirty nomad project icon"}/>
                             <div className={"content rounded"}>
                                 <a href={"https://drty-nomad-2023.herokuapp.com/"} target={"_blank"} className={"rounded proName"}> DRTY NOMADS</a>
@@ -34,7 +39,7 @@ export default function Portfolio() {
                     </div>
                     <div className={`${breakpoints}`}>
                         <div className={"image"}>
-                            <img className={"img-fluid myImgs rounded"} src={"src/assets/calendar-project-one.png"}
+                            <img className={"img-fluid myImgs rounded"} src={Calendar}
                                  alt={"calendar project icon"}/>
                             <div className={"content rounded"}>
                                 <a href={"https://amman98.github.io/Random-Word-Calendar/"} target={"_blank"} className={"rounded proName"}> Random Word Calendar</a>
@@ -50,7 +55,7 @@ export default function Portfolio() {
                     </div>
                     <div className={`${breakpoints}`}>
                         <div className={"image"}>
-                            <img className={"img-fluid myImgs rounded"} src={"src/assets/psw-generator.png"}
+                            <img className={"img-fluid myImgs rounded"} src={PswGen}
                                  alt={"dirty nomad project icon"}/>
                             <div className={"content rounded"}>
                                 <a href={"https://tanyasilyutina.github.io/js-password-generator-HW/"} target={"_blank"} className={"rounded proName"}> Password Generator</a>
@@ -66,7 +71,7 @@ export default function Portfolio() {
                     </div>
                     <div className={`${breakpoints}`}>
                         <div className={"image"}>
-                            <img className={"img-fluid myImgs rounded"} src={"src/assets/schedualer.png"}
+                            <img className={"img-fluid myImgs rounded"} src={Schedule}
                                  alt={"dirty nomad project icon"}/>
                             <div className={"content rounded"}>
                                 <a href={"https://tanyasilyutina.github.io/work-day-scheduler/"} target={"_blank"} className={"rounded proName"}> Day Scheduler</a>
